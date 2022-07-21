@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BioSkuy</title>
+    <link rel="shortcut icon" href="assets/image/Dzulfikar SA.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="gambar">
+                <img  style="width: 100px" src="assets/image/biologi-lab.png" alt="">
+                <a style="font-weight: bold; font-size: 25px;" href="index.html">BioSkuy</a>
+            </div>
+            
+            
+
+            <ul></ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a  href="#materi">Materi</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="main1" >
+            <div class="container-main">
+                <article>
+                    <picture media="(max-width: 50px)">
+                        <source srcset="assets/image/mobile.png" >
+                        <source srcset="assets/image/mobile.png">
+                        <img  class="foto" src="assets/image/mobile.png" alt="foto">
+                     </picture>
+                        <h1 class="judul">Semakin Seru Belajar di <a style="text-decoration: none; color: #023583;" href="index.html">BioSkuy</a></h1>
+                        <p class="subjudul">Ringkasan materi Biologi lengkap untuk SMA kelas 10,11, dan 12 </p>
+                        <h4 class="subjudul">Untuk Informasi lebih lanjut, <br>Scan Barcode di Sini!</h4>
+                        <h5 class="subjudul">Tekan tombol untuk melihat barcode</h5>
+                        <button type="button" onclick="show()" id="btnID">Tampilkan Barcode </button>
+                        <picture>
+                            <img id="qr" class="kode-qr" style="width: 180px; display: none;" src="assets/image/qr-code.png" alt="QR Code BioSKuy" srcset="assets/image/qr-code.png 500w, assets/image/qr-code.png 750w, assets/image/qr-code.png 1000w" sizes="(min-width: 1200px) 50vw">
+                        </picture> 
+                </article>
+            </div>
+        </div>
+        
+        <div id="materi" class="container">
+            <div class="material">
+                <article id="hati" class="hati">
+                    <picture>
+                        <img class="gb_hati" style="width: 300px ;" src="assets/image/hati.png" alt="gambar hati" srcset="assets/image/hati.png 500w, assets/image/hati.png 750w, assets/image/hati.png 1000w" sizes="(min-width: 1200px) 50vw">
+                    </picture>
+                    <h2 class="judul1">Hati</h2>
+                        <p class="subjudul">Kelenjar terbesar dalam tubuh, berfungsi untuk menyimpan cadangan lemak, glikogen, vitamin A, B12, D dan Albumin dan untuk proses pembersihan atau detoksifikasi zat beracun dalam pencernaan. Hati merupakan salah satu alat eksresi yang menghasilkan zat sisa berupa cairan empedu, urea, dan amonia. Hati terletak di dalam rongga perut kanan tepatnya di bagian bawah diagfragma</p>
+                </article>
+
+                <article id="otak">
+                    <picture>
+                        <img class="gb_otak" style="width: 300px ;" src="assets/image/otak.png" alt="gambar otak" srcset="assets/image/otak.png 500w, assets/image/otak.png 750w, assets/image/otak.png 1000w" sizes="(min-width: 1200px) 50vw">
+                    </picture>
+                    <div class="jd_ot">
+                        <h2 class="judul2">Otak</h2>
+                    <p class="subjudul">Otak adalah organ vital dan kompleks yang dilindungi oleh tengkorak dan selaput otak (meninges). organ yang berada di kepala sebagai pengendali semua fungsi tubuh manusia. Otak juga membuat manusia bisa berpikir dan memecahkan masalah.</p>
+                    </div>
+                </article>
+                
+                <article id="test">
+                    <picture>
+                        <img class="test" style="width: 300px;" src="assets/image/hati.png" alt="gambar hati" srcset="assets/image/hati.png 500w, assets/image/hati.png 750w, assets/image/hati.png 1000w" sizes="(min-width: 1200px) 50vw">
+                    </picture>
+                    <h2 class="judul3">Hati</h2>
+                        <p class="subjudul">Kelenjar terbesar dalam tubuh, berfungsi untuk menyimpan cadangan lemak, glikogen, vitamin A, B12, D dan Albumin dan untuk proses pembersihan atau detoksifikasi zat beracun dalam pencernaan. Hati merupakan salah satu alat eksresi yang menghasilkan zat sisa berupa cairan empedu, urea, dan amonia. Hati terletak di dalam rongga perut kanan tepatnya di bagian bawah diagfragma</p>
+                </article>
+
+                <article id="otak">
+                    <picture>
+                        <img class="gb_otak" style="width: 300px ;" src="assets/image/otak.png" alt="gambar otak" srcset="assets/image/otak.png 500w, assets/image/otak.png 750w, assets/image/otak.png 1000w" sizes="(min-width: 1200px) 50vw">
+                    </picture>
+                    <div class="jd_ot">
+                        <h2 class="judul2">Otak</h2>
+                    <p class="subjudul">Otak adalah organ vital dan kompleks yang dilindungi oleh tengkorak dan selaput otak (meninges). organ yang berada di kepala sebagai pengendali semua fungsi tubuh manusia. Otak juga membuat manusia bisa berpikir dan memecahkan masalah.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+       
+                <aside>
+                    <div id="kontak" class="kontak">
+                    <div class="profile">
+                        <h2 style="text-align:center">Tentang Saya</h2>
+                    <article class="profile1" >
+                        <!-- <h2 id="data-pribadi">Data Pribadi</h2>
+                        <picture>
+                           <source srcset="assets/image/Dzulfikar SA.png" media="(max-width: 50px)">
+                           <source srcset="assets/image/Dzulfikar SA.png">
+                           <img class="foto-pribadi" src="assets/image/Dzulfikar SA.png" alt="foto" style="width:100px;">
+                        </picture> -->
+                        <div class="ct">
+                            <p class="subjudul" style="width:300px;">Perkenalkan saya Dzulfikar Saif Assalam dari Universitas Budi Luhur, saya sedang belajar Front END Developer dan saya ingin belajar UI/UX karena skill ngoding saya yang 3/10</p>
+                            <div class="box" style="display: flex; z-index: 999;" >
+                                <picture>
+                                    <source srcset="assets/image/Dzulfikar SA.png" media="(max-width: 50px)">
+                                    <source srcset="assets/image/Dzulfikar SA.png">
+                                    <img class="foto-pribadi" src="assets/image/Dzulfikar SA.png" alt="foto" style="width:100px; -moz-border-radius: 100px; border-radius: 100px;">
+                                 </picture>
+                                 <h4 style="flex: content; text-align: center; color: rgb(255, 255, 255); width: 140px; border-radius: 10px; background-color: #0486a3;">UI/UX Designer</h4>
+                                 <p>Dzulfikar Saif Assalam</p>
+                            </div>
+                        </div>
+                    </article>
+                </aside>
+                </div>
+            </div>
+            
+
+            
+      </main>
+
+    <footer>
+        <p>Dzulfikar Saif Assalam &copy; 2022, BioSkuy</p>
+    </footer>
+    
+    <script>
+            const boxs = document.querySelectorAll('.box');
+            boxs.forEach(function(box) {
+            box.addEventListener('click', function(e) {
+            alert('Dzulfikar Saif Assalam | UI/UX Designer');
+            });
+        });
+       
+        function show() {
+   
+            document.getElementById('qr')
+                    .style.display = "block";
+ 
+            document.getElementById('btnID')
+                    .style.display = "none";
+            
+        }
+
+        
+
+    </script>
+    
+</body>
+</html>
